@@ -8,8 +8,7 @@ How to use:
 
 2. The setup file will ask for the token to configure the program. If you wish to start over, just delete the files from C:/Program Files/MerlinMDV/TheServerArchives and run the setup file again.
 
-3. The program is located in your AppData/Roaming folder. To use the program, just run it and leave it on. It will start logging all messages to the console and to the THESERVERARCHIVESconfig.ini file with all info on it. DO NOT TAMPER WITH THE INI FILE AS YOU MAY CORRUPT THE PROGRAM.
-
+3. The program is located in your AppData/Roaming folder. To use the program, just run it and leave it on. It will start logging all messages to the console and to the THESERVERARCHIVESconfig.ini file with all info on it. Don't mess with the .ini file (unless you know what you're doing) because you'll just mess up the program.
 ![image](https://user-images.githubusercontent.com/64904743/162353694-bd162f0f-02aa-4e73-8440-2274edc29bf3.png)
 
 ![image](https://user-images.githubusercontent.com/64904743/162353797-7b61cdba-71bd-442e-8d7a-1436407927b5.png)
