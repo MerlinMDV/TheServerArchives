@@ -2,7 +2,6 @@ import discord
 import random 
 import configparser
 import time
-import pyautogui
 import sys
 import os
 
@@ -28,6 +27,8 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+    if message.author == client.user:
+        return
     if str(message.channel.type) == 'private':
         await message.channel.send("haha imagine trying to clog up the archives with your pointless dms")
         return
@@ -42,8 +43,6 @@ async def on_message(message):
     counted += 1
     config.set("BOTconfig", "counted", str(counted))
     config.write(open("THESERVERARCHIVESconfig.ini", "w"))
-    if message.author == client.user:
-        return
 
     if message.content.startswith(prefix):
         if 'test' in message.content:
