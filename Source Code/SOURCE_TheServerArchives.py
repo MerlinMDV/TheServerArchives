@@ -10,7 +10,6 @@ def return_all():
     return random
     return configparser
     return time
-    return pyautogui
 
 config = configparser.ConfigParser()
 
