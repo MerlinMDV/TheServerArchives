@@ -3,7 +3,7 @@ An open source Discord bot that allows you to store every message sent.
 
 If you wish to run this bot on a cloud network or raspberry pi, I have left the original code here with the setup checks removed.
 
-NOTE: The most updated version of the bot is ALWAYS the source code.
+**NOTE: The most updated version of the bot is ALWAYS the source code.
 
 How to use: 
 1. The setup file (TheServerArchivesSetup.exe) just downloads the bots code onto your computer. You have to have your own discord bot and have your token ready. Learn how to make a bot and see your token here: https://realpython.com/how-to-make-a-discord-bot-python/ 
