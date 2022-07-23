@@ -28,8 +28,9 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.chnnel.type == 'DMChannel':
+    if message.channel.type == 'private':
         return
+    print(message.channel)
     print(message)
     print(message.content)
     config.read("THESERVERARCHIVESconfig.ini")
