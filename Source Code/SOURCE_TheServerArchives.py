@@ -28,7 +28,8 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.channel.type == 'private':
+    if str(message.channel.type) == 'private':
+        await message.channel.send("haha imagine trying to clog up the archives with your pointless dms")
         return
     print(message.channel)
     print(message)
